@@ -2,6 +2,12 @@
 
 import { createContext } from 'react';
 
-const CarsContext = createContext();
+const cars = {
+    red: false,
+    blue: false,
+    yellow: false,
+}
+
+const CarsContext = createContext(cars);
 
 export default CarsContext;
